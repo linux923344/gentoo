@@ -26,6 +26,7 @@ RDEPEND=">=virtual/jdk-1.5
 	sys-libs/zlib[abi_x86_32(-)]
 "
 
+
 ANDROID_SDK_DIR="/opt/${PN}"
 QA_FLAGS_IGNORED_x86="
 	${ANDROID_SDK_DIR/\/}/tools/adb
