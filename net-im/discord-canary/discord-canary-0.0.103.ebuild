@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -14,7 +14,7 @@ RESTRICT="mirror"
 KEYWORDS="~amd64"
 
 SLOT="0"
-LICENSE="hammer-and-chisel"
+LICENSE="all-rights-reserved"
 RDEPEND=""
 DEPEND="${RDEPEND}
 	sys-libs/libcxx
@@ -55,4 +55,3 @@ src_install() {
 		"/opt/discord-canary/discord.png" \
 		Network
 }
-
